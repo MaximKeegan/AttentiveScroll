@@ -17,7 +17,7 @@ struct ContentView: View {
                 }
                 .safeAreaInset(edge: .bottom) {
                     Rectangle()
-                        .fill(Color.red.opacity(0.8))
+                        .fill(Color.red)
                         .frame(width: .infinity, height: 50)
                 }
             }
